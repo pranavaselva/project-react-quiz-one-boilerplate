@@ -1,0 +1,144 @@
+body{
+    background-color: #47398d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    /* height: 90vh;   */
+  }
+  
+  .heading{
+      color: white;
+  }
+  
+  .playBtn{
+      background-color: #0ab306;
+      color: white;
+      border-radius: 15px;
+      padding: 10px;
+      width: 200px;
+  }
+
+
+.container{
+    width: 1000px;
+    height: 500px;
+    padding: 30px;
+    height: 80vh;
+    width: 150vh;
+    margin-top: 100px;
+    background-color: #f8f8f8;
+}
+
+.number{
+    margin-right: 1000px;
+}
+
+.options{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin-top: 50px;
+
+}
+
+.whole{
+    margin-top: 100px;
+}
+
+.choice{
+    background-color: #1ea1f1;
+    color: white;
+    width: 100%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+  gap:15px;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.prev{
+    background-color: #1ea1f1;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    height: 20px;
+    width:80px;
+}
+
+.nex{
+    background-color: #008001;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    height: 20px;
+    width: 50px;
+}
+
+.qui{
+    background-color: #ff0000;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    height: 20px;
+    width: 50px;
+}
+
+
+.score{
+    color: #0202fe;
+}
+
+.you{
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+
+
+.result{
+    color:green;
+    font-size: 1.8rem;
+    font-weight: 900;
+    text-align: center;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main{
+    background-color: white;
+    width: 50vw;
+    height: 50vh;
+    padding: 10px;
+    margin-left: 170px;
+  }
+
+.resultBtn{
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+    margin-bottom: 30px;
+}  
+
+.again{
+    border: 2px solid blue;
+  background-color: white;
+  color: blue;
+}
+
+.backhome{
+    border: 2px solid green;
+  background-color: white;
+  color:green;
+}
